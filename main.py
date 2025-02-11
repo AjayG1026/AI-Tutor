@@ -1,10 +1,11 @@
 
+import streamlit as st
 from phi.agent import Agent
 from phi.model.groq import Groq
 from phi.tools.duckduckgo import DuckDuckGo
-from dotenv import load_dotenv
 
-load_dotenv()
+# Load API key from Streamlit secrets
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # Study Agent: Helps with general learning and explanations
 study_agent = Agent(
