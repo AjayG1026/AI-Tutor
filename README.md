@@ -88,11 +88,6 @@ Implements the user interface using Streamlit:
 
 ---
 
-## Link to AI Character
-(Provide the hosted AI link here)
-
----
-
 ## Contributors
 - Ajay Mudiraj G
 - Contact: [ajaygudise03@gmail.com]
